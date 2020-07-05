@@ -1,0 +1,55 @@
+body{
+	box-sizing: border-box;
+}
+h1{
+	text-align: center;
+
+}
+p{
+	
+	padding: 10px;
+	float: left;
+	margin:5px;
+	height:100px;
+}
+section{
+	border:2px solid black;
+	margin:3px;
+	background-color: lightblue;
+}
+section>h2{
+	float:right;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	margin: 0px;
+	text-align: center;
+	background-color: pink;
+}
+@media(min-width: 992px){
+	 .col-lg-4 {
+        float: left;
+    }
+	.col-lg-4{
+		width: 31%;
+		
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+	.col-md-6, .col-md-12{
+        float: left;
+    }
+	.col-md-6{
+		width: 48.8%;
+	}
+	.col-md-12{
+		width: 100%;
+	}
+}
+@media(max-width: 767px){
+	.col-s-12 {
+        float: left;
+    }
+	.col-s-12{
+		width: 99.8%;
+	}
+}
